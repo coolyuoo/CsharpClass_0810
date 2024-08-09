@@ -98,6 +98,9 @@ namespace WindowsFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
+
+     
+
             string x = "";//這是裝行數的容器
 
             //1.先印出八行
@@ -107,17 +110,9 @@ namespace WindowsFormsApp1
                 string n = "";
 
                 //2.再印出五個*
-                for (int j = 0; j < 8; j++)
+                for (int j = 0; j <= i; j++)
                 {
-
-                    string y = "*";
-
-                    n = n + y;
-
-                    if (i == j)
-                    {
-                        break;
-                    }
+                    n = n + "*";
                 }
 
 
